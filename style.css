@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+    justify-content: center;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 80px;
+
+
+}
+
+
+div {
+    top: -3px;
+    float: right;
+
+}
+
+section {
+    padding: 60px 20px;
+}
+
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.project {
+    display:inline-block;
+    grid-template-columns: repeat(3,1fr);
+    place-items: center;
+    gap: 3rem;
+    row-gap: 5rem;
+}
+
+
+
+.footer {
+    background-color: white;
+    color: yellowgreen;
+    text-align: center;
+    padding: 10px;
+}
+
+button {
+    background: white;
+    color: pink;
+    padding: 12px 6px 4px 12px;
+    margin: 20px;
+
+}
+
+button:hover {
+    background-color: antiquewhite;
+    transition: 2px;
+}
+
+/* //section */
+img {
+float: left;
+height:400px;
+width: 300px;
+    margin-right: 80px;
+    border-radius: 70px;
+    box-shadow: 12px 12px 14px;
+    margin-top: -100px;
+}
+
+
+
+#about {
+    display: inline-flex;
+    flex-direction: row;
+    margin-left: 30%;
+    justify-content: space-between;
+}
+
+header a {
+    display: grid;
+    text-decoration: none;
+    float: right;
+
+    text-align: center;
+}
+
+#contact {
+    height: 400px;
+    width: 500px;
+    margin: 50px;
+    background-color: #f4f4f4;
+    box-sizing: 1px 1px skyblue;
+    border: 1px solid black;
+    margin-bottom: -110px;
+    justify-content: center;
+    text-align: center;
+
+}
+
+input {
+    width: 250px;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+textarea {
+    width: 250px;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+#send {
+    width: 350px;
+    padding: 10px;
+    margin-left: 5px;
+
+}

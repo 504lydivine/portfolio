@@ -1,0 +1,63 @@
+body{
+    background-color: antiquewhite;
+}
+
+
+#data-input{
+    width: 350px;
+    padding: 2rem;
+    top: 0;
+    background-color: skyblue;
+    box-shadow: lightcoral;
+    text-align: center;
+    border: 1px solid black;
+    outline: 2px;
+    display: fixed;
+    border-radius: 25px;
+    background-attachment: fixed;
+
+}
+input{
+    padding: 12px 60px 4px 9px;
+    background-color: white;
+    color: black;
+    font-size: 15px;
+    font-weight: 200;
+    border: 0 1px 1px 1px;
+
+}
+input:hover{
+  border: 1px solid black;
+}
+#saveProject{
+    background-color: wheat;
+    padding: 10px;
+    border: none;
+}
+#saveProject:hover{
+    background-color: violet;
+    color: white;
+    border: none;
+}
+.data{
+    box-sizing: content-box;
+    width: 10%;
+    padding: 50px;
+    background-color: azure;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 25px;
+    color: black;
+    display: inline-grid;
+    border: 1px solid black;
+
+}
+.delete{
+    padding: 10px 13px 3px 10px;
+    background-color: azure;
+    color: black;
+}
+.delete:hover{
+    background-color: antiquewhite;
+}
+
